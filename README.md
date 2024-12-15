@@ -69,8 +69,7 @@ The system’s knowledge foundation is built from carefully curated machine lear
 
 ## Experiments
 
-**Experimental Notebooks:**
-
+- **`notebooks/agents.ipynb`**: Contains experiments on agentic approaches, memory tools, and LLM reasoning.
 - **`notebooks/experiments.ipynb`**: Demonstrates named entity recognition (NER) experiments, automated knowledge graph construction, and exploratory data analysis.
 - **`notebooks/parser.ipynb`**: Focuses on parsing and refining raw data to populate and update the underlying Knowledge Graph.
 

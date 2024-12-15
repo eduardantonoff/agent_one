@@ -1,0 +1,605 @@
+ablation
+A/B testing
+accelerator chip
+accuracy
+action
+activation function
+active learning
+AdaGrad
+agent
+agglomerative clustering
+anomaly detection
+AR
+area under the PR curve
+area under the ROC curve
+artificial general intelligence
+artificial intelligence
+attention
+attribute
+attribute sampling
+AUC (Area under the ROC curve)
+augmented reality
+autoencoder
+automation bias
+AutoML
+auto-regressive model
+auxiliary loss
+average precision
+axis-aligned condition
+backpropagation
+bagging
+bag of words
+baseline
+batch
+batch inference
+batch normalization
+batch size
+Bayesian neural network
+Bayesian optimization
+Bellman equation
+BERT (Bidirectional Encoder Representations from Transformers)
+bias (ethics/fairness)
+bias (math) or bias term
+bidirectional
+bidirectional language model
+bigram
+binary classification
+binary condition
+binning
+BLEU (Bilingual Evaluation Understudy)
+boosting
+bounding box
+broadcasting
+bucketing
+calibration layer
+candidate generation
+candidate sampling
+categorical data
+causal language model
+centroid
+centroid-based clustering
+chain-of-thought prompting
+chat
+checkpoint
+class
+classification model
+classification threshold
+class-imbalanced dataset
+clipping
+Cloud TPU
+clustering
+co-adaptation
+collaborative filtering
+concept drift
+condition
+confabulation
+configuration
+confirmation bias
+confusion matrix
+constituency parsing
+contextualized language embedding
+context window
+continuous feature
+convenience sampling
+convergence
+convex function
+convex optimization
+convex set
+convolution
+convolutional filter
+convolutional layer
+convolutional neural network
+convolutional operation
+cost
+co-training
+counterfactual fairness
+coverage bias
+crash blossom
+critic
+cross-entropy
+cross-validation
+cumulative distribution function (CDF)
+data analysis
+data augmentation
+DataFrame
+data parallelism
+data set or dataset
+Dataset API (tf.data)
+decision boundary
+decision forest
+decision threshold
+decision tree
+decoder
+deep model
+deep neural network
+Deep Q-Network (DQN)
+demographic parity
+denoising
+dense feature
+dense layer
+depth
+depthwise separable convolutional neural network (sepCNN)
+derived label
+device
+differential privacy
+dimension reduction
+dimensions
+direct prompting
+discrete feature
+discriminative model
+discriminator
+disparate impact
+disparate treatment
+distillation
+distribution
+divisive clustering
+downsampling
+DQN
+dropout regularization
+dynamic
+dynamic model
+eager execution
+early stopping
+earth mover's distance (EMD)
+edit distance
+Einsum notation
+embedding layer
+embedding space
+embedding vector
+empirical cumulative distribution function (eCDF or EDF)
+empirical risk minimization (ERM)
+encoder
+ensemble
+entropy
+environment
+episode
+epoch
+epsilon greedy policy
+equality of opportunity
+equalized odds
+Estimator
+evals
+evaluation
+example
+experience replay
+experimenter's bias
+exploding gradient problem
+F1
+fairness constraint
+fairness metric
+false negative (FN)
+false negative rate
+false positive (FP)
+false positive rate (FPR)
+feature
+feature cross
+feature engineering
+feature extraction
+feature importances
+feature set
+feature spec
+feature vector
+featurization
+federated learning
+feedback loop
+feedforward neural network (FFN)
+few-shot learning
+few-shot prompting
+Fiddle
+fine-tuning
+Flax
+Flaxformer
+forget gate
+full softmax
+fully connected layer
+function transformation
+GAN
+generalization
+Gemini
+Gemini models
+generalization curve
+generalized linear model
+generative adversarial network (GAN)
+generative AI
+generative model
+generator
+gini impurity
+golden dataset
+GPT (Generative Pre-trained Transformer)
+gradient
+gradient accumulation
+gradient boosted (decision) trees (GBT)
+gradient boosting
+gradient clipping
+gradient descent
+graph
+graph execution
+greedy policy
+ground truth
+group attribution bias
+hallucination
+hashing
+heuristic
+hidden layer
+hierarchical clustering
+hinge loss
+historical bias
+holdout data
+host
+hyperparameter
+hyperplane
+i.i.d.
+image recognition
+imbalanced dataset
+implicit bias
+imputation
+incompatibility of fairness metrics
+in-context learning
+independently and identically distributed (i.i.d)
+individual fairness
+inference
+inference path
+information gain
+in-group bias
+input generator
+input layer
+in-set condition
+instance
+instruction tuning
+interpretability
+inter-rater agreement
+intersection over union (IoU)
+IoU
+item matrix
+items
+iteration
+JAX
+Keras
+Kernel Support Vector Machines (KSVMs)
+keypoints
+k-fold cross validation
+k-means
+k-median
+L0 regularization
+L1 loss
+L1 regularization
+L2 loss
+L2 regularization
+label
+labeled example
+label leakage
+lambda
+LaMDA (Language Model for Dialogue Applications)
+landmarks
+language model
+large language model
+latent space
+layer
+Layers API (tf.layers)
+leaf
+Learning Interpretability Tool (LIT)
+learning rate
+least squares regression
+linear
+linear model
+linear regression
+LIT
+LLM
+LLM evaluations (evals)
+logistic regression
+logits
+Log Loss
+log-odds
+Long Short-Term Memory (LSTM)
+LoRA
+loss
+loss aggregator
+loss curve
+loss function
+loss surface
+Low-Rank Adaptability (LoRA)
+LSTM
+machine learning
+majority class
+Markov decision process (MDP)
+Markov property
+masked language model
+matplotlib
+matrix factorization
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+mesh
+meta-learning
+metric
+Metrics API (tf.metrics)
+mini-batch
+mini-batch stochastic gradient descent
+minimax loss
+minority class
+mixture of experts
+ML
+MMIT
+MNIST
+modality
+model
+model capacity
+model cascading
+model parallelism
+model router
+model training
+Momentum
+MOE
+multi-class classification
+multi-class logistic regression
+multi-head self-attention
+multimodal model
+multimodal instruction-tuned
+multinomial classification
+multinomial regression
+multitask
+NaN trap
+natural language understanding
+negative class
+negative sampling
+Neural Architecture Search (NAS)
+neural network
+neuron
+N-gram
+NLU
+node (decision tree)
+node (neural network)
+node (TensorFlow graph)
+noise
+non-binary condition
+nonlinear
+non-response bias
+nonstationarity
+normalization
+novelty detection
+numerical data
+NumPy
+objective
+objective function
+oblique condition
+offline
+offline inference
+one-hot encoding
+one-shot learning
+one-shot prompting
+one-vs.-all
+online
+online inference
+operation (op)
+Optax
+optimizer
+out-group homogeneity bias
+outlier detection
+outliers
+out-of-bag evaluation (OOB evaluation)
+output layer
+overfitting
+oversampling
+packed data
+pandas
+parameter
+parameter-efficient tuning
+Parameter Server (PS)
+parameter update
+partial derivative
+participation bias
+partitioning strategy
+Pax
+perceptron
+performance
+permutation variable importances
+perplexity
+pipeline
+pipelining
+pjit
+PLM
+pmap
+policy
+pooling
+positional encoding
+positive class
+post-processing
+PR AUC (area under the PR curve)
+Praxis
+precision
+precision-recall curve
+prediction
+prediction bias
+predictive ML
+predictive parity
+predictive rate parity
+preprocessing
+pre-trained model
+pre-training
+prior belief
+probabilistic regression model
+probability density function
+prompt
+prompt-based learning
+prompt design
+prompt engineering
+prompt tuning
+proxy labels
+proxy (sensitive attributes)
+pure function
+Q-function
+Q-learning
+quantile
+quantile bucketing
+quantization
+queue
+RAG
+random forest
+random policy
+ranking
+rank (ordinality)
+rank (Tensor)
+rater
+recall
+recommendation system
+Rectified Linear Unit (ReLU)
+recurrent neural network
+regression model
+regularization
+regularization rate
+reinforcement learning (RL)
+Reinforcement Learning from Human Feedback (RLHF)
+ReLU
+replay buffer
+replica
+reporting bias
+representation
+re-ranking
+retrieval-augmented generation (RAG)
+return
+reward
+ridge regularization
+RNN
+ROC (receiver operating characteristic) Curve
+role prompting
+root
+root directory
+Root Mean Squared Error (RMSE)
+rotational invariance
+R-squared
+sampling bias
+sampling with replacement
+SavedModel
+Saver
+scalar
+scaling
+scikit-learn
+scoring
+selection bias
+self-attention (also called self-attention layer)
+self-supervised learning
+self-training
+semi-supervised learning
+sensitive attribute
+sentiment analysis
+sequence model
+sequence-to-sequence task
+serving
+shape (Tensor)
+shard
+shrinkage
+sigmoid function
+similarity measure
+single program / multiple data (SPMD)
+size invariance
+sketching
+skip-gram
+softmax
+soft prompt tuning
+sparse feature
+sparse representation
+sparse vector
+sparsity
+spatial pooling
+split
+splitter
+SPMD
+squared hinge loss
+squared loss
+staged training
+state
+state-action value function
+static
+static inference
+stationarity
+step
+step size
+stochastic gradient descent (SGD)
+stride
+structural risk minimization (SRM)
+subsampling
+subword token
+summary
+supervised machine learning
+synthetic feature
+T5
+T5X
+tabular Q-learning
+target
+target network
+task
+temperature
+temporal data
+Tensor
+TensorBoard
+TensorFlow
+TensorFlow Playground
+TensorFlow Serving
+Tensor Processing Unit (TPU)
+Tensor rank
+Tensor shape
+Tensor size
+TensorStore
+termination condition
+test
+test loss
+test set
+text span
+tf.Example
+tf.keras
+threshold (for decision trees)
+time series analysis
+timestep
+token
+tower
+TPU
+TPU chip
+TPU device
+TPU master
+TPU node
+TPU Pod
+TPU resource
+TPU slice
+TPU type
+TPU worker
+training
+training loss
+training-serving skew
+training set
+trajectory
+transfer learning
+Transformer
+translational invariance
+trigram
+true negative (TN)
+true positive (TP)
+true positive rate (TPR)
+unawareness (to a sensitive attribute)
+underfitting
+undersampling
+unidirectional
+unidirectional language model
+unlabeled example
+unsupervised machine learning
+uplift modeling
+upweighting
+user matrix
+validation
+validation loss
+validation set
+value imputation
+vanishing gradient problem
+variable importances
+variational autoencoder (VAE)
+vector
+Wasserstein loss
+weight
+Weighted Alternating Least Squares (WALS)
+weighted sum
+wide model
+width
+wisdom of the crowd
+word embedding
+XLA (Accelerated Linear Algebra)
+zero-shot learning
+zero-shot prompting
+Z-score normalization

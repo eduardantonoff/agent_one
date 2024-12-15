@@ -1,0 +1,764 @@
+{
+    "concepts": [
+      {
+        "id": 1,
+        "label": "A.1 Mean",
+        "description": "Calculating the average value of a data set.",
+        "status": "awareness",
+        "prerequisite": [],
+        "section": [
+          "A"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Introduce the mean as a fundamental measure of central tendency in statistics. Use relatable examples, such as average test scores, to demonstrate its practical application. Highlight the importance of understanding the mean in analyzing data distributions. Adapt explanations, examples, and feedback based on the user's unique characteristics / preferences to enhance understanding and engagement."
+          },
+          {
+            "type": "equation",
+            "value": "Mean = (\u03a3x_i) / n"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.1.1",
+            "type": "multi",
+            "value": {
+              "question": "Which of the following best describes the mean?",
+              "instruction": "Generate clear and concise multiple-choice options that assess the understanding of the mean. Ensure that the options are distinct and cover common misconceptions."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.1.2",
+            "type": "problem",
+            "value": {
+              "question": "Calculate the mean of the data set: 5, 10, 15, 20, 25.",
+              "reference": "Mean = (5 + 10 + 15 + 20 + 25) / 5 = 75 / 5 = 15."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.1.3",
+            "type": "open",
+            "value": {
+              "question": "Explain in your own words why the mean is an important measure in statistics.",
+              "instruction": "Encourage a thoughtful and comprehensive explanation that explores the significance of the mean in various statistical analyses and real-world applications."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "A.1.1 Arithmetic Mean",
+        "description": "The sum of all values divided by the number of values.",
+        "status": "awareness",
+        "prerequisite": [
+          1
+        ],
+        "section": [
+          "A"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Detail the arithmetic mean as the most common measure of central tendency. Provide step-by-step instructions on how to calculate it with examples."
+          },
+          {
+            "type": "equation",
+            "value": "Arithmetic Mean = (\u03a3x_i) / n"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.2.1",
+            "type": "multi",
+            "value": {
+              "question": "How is the arithmetic mean calculated?",
+              "instruction": "Provide multiple-choice options that test the understanding of the arithmetic mean calculation."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.2.2",
+            "type": "problem",
+            "value": {
+              "question": "Find the arithmetic mean of the numbers: 12, 15, 20, 22.",
+              "reference": "Arithmetic Mean = (12 + 15 + 20 + 22) / 4 = 69 / 4 = 17.25."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.2.3",
+            "type": "open",
+            "value": {
+              "question": "Describe a real-life scenario where the arithmetic mean is useful.",
+              "instruction": "Encourage application of the arithmetic mean in practical contexts."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "A.1.2 Geometric Mean",
+        "description": "The nth root of the product of n values, used for rates of growth.",
+        "status": "-",
+        "prerequisite": [
+          1
+        ],
+        "section": [
+          "A"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Introduce the geometric mean and its applications, especially in growth rates and financial contexts. Explain how it differs from the arithmetic mean."
+          },
+          {
+            "type": "equation",
+            "value": "Geometric Mean = (\u03a0x_i)^(1/n)"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.3.1",
+            "type": "multi",
+            "value": {
+              "question": "What is the geometric mean of the numbers 2, 8, and 32?",
+              "instruction": "Provide multiple-choice options that require calculation of the geometric mean."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.3.2",
+            "type": "problem",
+            "value": {
+              "question": "Calculate the geometric mean of the data set: 4, 16, 64.",
+              "reference": "Geometric Mean = (4 \u00d7 16 \u00d7 64)^(1/3) = (4096)^(1/3) = 16."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.3.3",
+            "type": "open",
+            "value": {
+              "question": "Explain why the geometric mean is more appropriate than the arithmetic mean for certain data sets.",
+              "instruction": "Encourage discussion on scenarios where the geometric mean provides a better measure of central tendency."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "A.1.3 Harmonic Mean",
+        "description": "The reciprocal of the arithmetic mean of reciprocals of the data set.",
+        "status": "-",
+        "prerequisite": [
+          1
+        ],
+        "section": [
+          "A"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Explain the harmonic mean and its specific applications, such as in average speed calculations and ratios."
+          },
+          {
+            "type": "equation",
+            "value": "Harmonic Mean = n / (\u03a3(1/x_i))"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.4.1",
+            "type": "multi",
+            "value": {
+              "question": "Which formula represents the harmonic mean?",
+              "instruction": "Provide multiple-choice options to test the understanding of the harmonic mean formula."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.4.2",
+            "type": "problem",
+            "value": {
+              "question": "Find the harmonic mean of the numbers 3, 4, and 6.",
+              "reference": "Harmonic Mean = 3 / (1/3 + 1/4 + 1/6) = 3 / (12/36 + 9/36 + 6/36) = 3 / (27/36) = 3 \u00d7 (36/27) = 4."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.4.3",
+            "type": "open",
+            "value": {
+              "question": "Discuss a situation where using the harmonic mean is more beneficial than the arithmetic mean.",
+              "instruction": "Encourage exploration of practical applications where the harmonic mean provides more accurate insights."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "label": "A.1.4 Weighted Mean",
+        "description": "An average where each data point contributes according to its weight.",
+        "status": "-",
+        "prerequisite": [
+          1
+        ],
+        "section": [
+          "A"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Introduce the weighted mean and its importance when different data points have varying levels of significance. Provide examples such as grade calculations where assignments have different weights."
+          },
+          {
+            "type": "equation",
+            "value": "Weighted Mean = (\u03a3w_i x_i) / \u03a3w_i"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.5.1",
+            "type": "multi",
+            "value": {
+              "question": "How does the weighted mean differ from the arithmetic mean?",
+              "instruction": "Provide multiple-choice options that highlight the key differences between weighted and arithmetic means."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.5.2",
+            "type": "problem",
+            "value": {
+              "question": "Calculate the weighted mean of the following data with weights: (Score: 80, Weight: 2), (Score: 90, Weight: 3), (Score: 70, Weight: 1).",
+              "reference": "Weighted Mean = (80\u00d72 + 90\u00d73 + 70\u00d71) / (2 + 3 + 1) = (160 + 270 + 70) / 6 = 500 / 6 \u2248 83.33."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.5.3",
+            "type": "open",
+            "value": {
+              "question": "Explain why weighted mean is useful in calculating GPA.",
+              "instruction": "Encourage a comprehensive explanation of how weighted mean accounts for different credit hours or course importance."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "label": "A.2 Median",
+        "description": "The middle value in a data set when ordered from least to greatest.",
+        "status": "awareness",
+        "prerequisite": [
+          1
+        ],
+        "section": [
+          "A"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Introduce the median as a measure of central tendency that is less affected by outliers. Explain how to find the median in both odd and even-sized data sets with examples based on user's preferences."
+          },
+          {
+            "type": "equation",
+            "value": "Median = Middle value of ordered data set"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.6.1",
+            "type": "multi",
+            "value": {
+              "question": "What is the median of the data set: 3, 1, 4, 2, 5?",
+              "instruction": "Provide multiple-choice options that require ordering the data set and identifying the middle value."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.6.2",
+            "type": "problem",
+            "value": {
+              "question": "Find the median of the following numbers: 7, 3, 9, 15.",
+              "reference": "Ordered data set: 3, 7, 9, 15. Median = (7 + 9) / 2 = 8."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.6.3",
+            "type": "open",
+            "value": {
+              "question": "Discuss the advantages of using the median over the mean in skewed distributions.",
+              "instruction": "Encourage exploration of scenarios where the median provides a better central tendency measure due to data skewness."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "label": "A.3 Mode",
+        "description": "The value that appears most frequently in a data set.",
+        "status": "-",
+        "prerequisite": [
+          1
+        ],
+        "section": [
+          "A"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Explain the mode as the most frequently occurring value in a data set. Discuss its usefulness and limitations, especially in data sets with no repeating values or multiple modes."
+          },
+          {
+            "type": "equation",
+            "value": "Mode = Most frequent value in the data set"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.7.1",
+            "type": "multi",
+            "value": {
+              "question": "Identify the mode of the following data set: 2, 4, 4, 6, 8.",
+              "instruction": "Provide multiple-choice options that require identifying the most frequent value."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.7.2",
+            "type": "problem",
+            "value": {
+              "question": "Find the mode of the numbers: 10, 20, 20, 30, 40, 40, 40.",
+              "reference": "Mode = 40, as it appears three times."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.7.3",
+            "type": "open",
+            "value": {
+              "question": "Explain a scenario where the mode is a more appropriate measure of central tendency than the mean or median.",
+              "instruction": "Encourage discussion on practical applications where the mode provides better insights."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "label": "A.4 Midrange",
+        "description": "The average of the highest and lowest values in a data set.",
+        "status": "-",
+        "prerequisite": [
+          1
+        ],
+        "section": [
+          "A"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Introduce the midrange as a simple measure of central tendency calculated by averaging the maximum and minimum values. Discuss its advantages and limitations."
+          },
+          {
+            "type": "equation",
+            "value": "Midrange = (Max + Min) / 2"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.8.1",
+            "type": "multi",
+            "value": {
+              "question": "What is the midrange of the data set: 5, 15, 25, 35?",
+              "instruction": "Provide multiple-choice options requiring calculation of the midrange."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.8.2",
+            "type": "problem",
+            "value": {
+              "question": "Calculate the midrange for the numbers: 8, 12, 20, 30.",
+              "reference": "Midrange = (8 + 30) / 2 = 38 / 2 = 19."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.8.3",
+            "type": "open",
+            "value": {
+              "question": "Discuss why the midrange might not be a reliable measure of central tendency in the presence of outliers.",
+              "instruction": "Encourage analysis of how extreme values can distort the midrange."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "label": "B.1 Range",
+        "description": "The difference between the highest and lowest values in a data set.",
+        "status": "-",
+        "prerequisite": [],
+        "section": [
+          "B"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Introduce the range as a basic measure of dispersion, representing the spread of data points. Provide examples and discuss its simplicity and limitations."
+          },
+          {
+            "type": "equation",
+            "value": "Range = Max - Min"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.9.1",
+            "type": "multi",
+            "value": {
+              "question": "What is the range of the data set: 7, 14, 21, 28?",
+              "instruction": "Provide multiple-choice options requiring calculation of the range."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.9.2",
+            "type": "problem",
+            "value": {
+              "question": "Find the range of the numbers: 10, 22, 35, 47.",
+              "reference": "Range = 47 - 10 = 37."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.9.3",
+            "type": "open",
+            "value": {
+              "question": "Explain why the range might not be the best measure of dispersion in certain data sets.",
+              "instruction": "Encourage discussion on the impact of outliers and the lack of information about data distribution."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "label": "B.2 Interquartile Range (IQR)",
+        "description": "The difference between the first and third quartiles, measuring the spread of the middle 50% of data.",
+        "status": "awareness",
+        "prerequisite": [
+          6
+        ],
+        "section": [
+          "B"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Introduce the interquartile range (IQR) as a measure of statistical dispersion that focuses on the middle 50% of the data. Explain how to calculate quartiles and the IQR with examples."
+          },
+          {
+            "type": "equation",
+            "value": "IQR = Q3 - Q1"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.10.1",
+            "type": "multi",
+            "value": {
+              "question": "What does the interquartile range represent?",
+              "instruction": "Provide multiple-choice options that assess understanding of IQR's role in measuring data dispersion."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.10.2",
+            "type": "problem",
+            "value": {
+              "question": "Calculate the IQR for the data set: 6, 7, 8, 9, 10, 11, 12.",
+              "reference": "Q1 = 7, Q3 = 11. IQR = 11 - 7 = 4."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.10.3",
+            "type": "open",
+            "value": {
+              "question": "Describe a situation where using IQR is more beneficial than using the range.",
+              "instruction": "Encourage explanation of scenarios where IQR provides a better measure of spread by minimizing the impact of outliers."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "label": "B.3 Variance",
+        "description": "The average of the squared differences from the mean, indicating data dispersion.",
+        "status": "-",
+        "prerequisite": [
+          1
+        ],
+        "section": [
+          "B"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Introduce variance as a measure of how much each data point differs from the mean. Explain the calculation process and its significance in statistical analysis."
+          },
+          {
+            "type": "equation",
+            "value": "Variance (\u03c3\u00b2) = \u03a3(x_i - Mean)\u00b2 / n"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.11.1",
+            "type": "multi",
+            "value": {
+              "question": "Which formula correctly represents variance?",
+              "instruction": "Provide multiple-choice options that test the understanding of the variance formula."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.11.2",
+            "type": "problem",
+            "value": {
+              "question": "Calculate the variance of the data set: 4, 8, 6, 5, 3.",
+              "reference": "Mean = 5.2. Variance = [(4-5.2)\u00b2 + (8-5.2)\u00b2 + (6-5.2)\u00b2 + (5-5.2)\u00b2 + (3-5.2)\u00b2] / 5 = [1.44 + 7.84 + 0.64 + 0.04 + 4.84] / 5 = 14.8 / 5 = 2.96."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.11.3",
+            "type": "open",
+            "value": {
+              "question": "Explain how variance is used in real-world applications such as finance or quality control.",
+              "instruction": "Encourage discussion on the practical uses of variance in assessing risk, consistency, and performance."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "label": "B.4 Standard Deviation",
+        "description": "The square root of variance, representing data dispersion in the same units as the data.",
+        "status": "-",
+        "prerequisite": [
+          11
+        ],
+        "section": [
+          "B"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Introduce standard deviation as a measure of dispersion that indicates how much the data deviates from the mean. Explain its calculation and interpretation."
+          },
+          {
+            "type": "equation",
+            "value": "Standard Deviation (\u03c3) = \u221aVariance"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.12.1",
+            "type": "multi",
+            "value": {
+              "question": "Why is standard deviation preferred over variance in some analyses?",
+              "instruction": "Provide multiple-choice options that highlight the advantages of standard deviation."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.12.2",
+            "type": "problem",
+            "value": {
+              "question": "Find the standard deviation of the data set: 10, 12, 23, 23, 16, 23, 21, 16.",
+              "reference": "Mean = 18. Values squared differences: 64, 36, 25, 25, 4, 25, 9, 4. Variance = 192 / 8 = 24. Standard Deviation = \u221a24 \u2248 4.899."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.12.3",
+            "type": "open",
+            "value": {
+              "question": "Discuss how standard deviation provides more intuitive information compared to variance.",
+              "instruction": "Encourage explanation of how standard deviation relates directly to the data's units and its interpretation."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "label": "B.5 Mean Absolute Deviation (MAD)",
+        "description": "The average of the absolute differences between each data point and the mean.",
+        "status": "-",
+        "prerequisite": [
+          1
+        ],
+        "section": [
+          "B"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Introduce Mean Absolute Deviation (MAD) as a measure of dispersion that uses absolute differences. Explain its calculation and how it compares to variance and standard deviation."
+          },
+          {
+            "type": "equation",
+            "value": "MAD = \u03a3|x_i - Mean| / n"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.13.1",
+            "type": "multi",
+            "value": {
+              "question": "What distinguishes MAD from standard deviation?",
+              "instruction": "Provide multiple-choice options that highlight the differences in calculation and interpretation between MAD and standard deviation."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.13.2",
+            "type": "problem",
+            "value": {
+              "question": "Calculate the MAD for the data set: 5, 7, 3, 7, 9.",
+              "reference": "Mean = 6.2. MAD = (|5-6.2| + |7-6.2| + |3-6.2| + |7-6.2| + |9-6.2|) / 5 = (1.2 + 0.8 + 3.2 + 0.8 + 2.8) / 5 = 8.8 / 5 = 1.76."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.13.3",
+            "type": "open",
+            "value": {
+              "question": "Explain scenarios where MAD might be preferred over standard deviation.",
+              "instruction": "Encourage discussion on the benefits of MAD in situations where robustness to outliers is important."
+            },
+            "status": "-"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "label": "B.6 Coefficient of Variation (CV)",
+        "description": "A standardized measure of dispersion, calculated as the ratio of the standard deviation to the mean.",
+        "status": "-",
+        "prerequisite": [
+          12
+        ],
+        "section": [
+          "B"
+        ],
+        "content": [
+          {
+            "type": "instruction",
+            "value": "Introduce the coefficient of variation (CV) as a relative measure of variability that allows comparison between different data sets. Explain its calculation and interpretation."
+          },
+          {
+            "type": "equation",
+            "value": "CV = (Standard Deviation / Mean) \u00d7 100%"
+          }
+        ],
+        "evaluation": [
+          {
+            "label": "E.14.1",
+            "type": "multi",
+            "value": {
+              "question": "What does a higher coefficient of variation indicate about a data set?",
+              "instruction": "Provide multiple-choice options that assess understanding of CV's implications on data variability."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.14.2",
+            "type": "problem",
+            "value": {
+              "question": "Calculate the coefficient of variation for a data set with a mean of 50 and a standard deviation of 10.",
+              "reference": "CV = (10 / 50) \u00d7 100% = 20%."
+            },
+            "status": "-"
+          },
+          {
+            "label": "E.14.3",
+            "type": "open",
+            "value": {
+              "question": "Describe how the coefficient of variation can be used to compare the risk of two different investments.",
+              "instruction": "Encourage explanation of CV in the context of risk assessment and comparison."
+            },
+            "status": "-"
+          }
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "from": 1,
+        "to": 2
+      },
+      {
+        "from": 1,
+        "to": 3
+      },
+      {
+        "from": 1,
+        "to": 4
+      },
+      {
+        "from": 1,
+        "to": 5
+      },
+      {
+        "from": 1,
+        "to": 6
+      },
+      {
+        "from": 1,
+        "to": 7
+      },
+      {
+        "from": 1,
+        "to": 8
+      },
+      {
+        "from": 6,
+        "to": 10
+      },
+      {
+        "from": 1,
+        "to": 11
+      },
+      {
+        "from": 11,
+        "to": 12
+      },
+      {
+        "from": 1,
+        "to": 13
+      },
+      {
+        "from": 12,
+        "to": 14
+      }
+    ]
+  }
